@@ -3,8 +3,19 @@
 Flat is a command line tool to flatten json and yaml structures
 
 
-Example: 
+## Install
 
+We can install it with Homebrew 
+
+```
+brew tap tlopo-ruby/flat
+brew install flat
+```
+
+
+## Usage 
+
+Flattening using the default separator ` | `: 
 ```
 $ curl https://postman-echo.com/get  -s | flat
 args = {}
@@ -16,7 +27,7 @@ headers | x-forwarded-port = 443
 url = https://postman-echo.com/get
 ```
 
-Specifying separator: 
+Flattening specifying `.` as separator: 
 
 ```
 $ curl https://postman-echo.com/get  -s | flat -s .
