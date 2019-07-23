@@ -17,6 +17,12 @@ brew tap tlopo-ruby/flat
 brew install flat
 ```
 
+Or as standalone executable script: 
+```
+curl -sL https://raw.githubusercontent.com/tlopo-ruby/flat/master/flat.rb > /usr/local/bin/flat
+chmod +x /usr/local/bin/flat
+```
+
 ## Usage 
 
 Flattening using the default separator ` | `: 
