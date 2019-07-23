@@ -6,7 +6,7 @@ Flat is a command line tool to flatten json and yaml structures
 
 I wrote this tool a while ago when dealing with a great deal of databags for Chef which are basically json files,  I wanted look inside those files and grep for a specify path, I could not do it, I would need to flatten the structure before I could grep. 
 
-It also helps me  a lot when writting kubernetes yaml files, helm charts and cloudformation files. 
+It also helps me  a lot when writting kubernetes, helm charts and cloudformation files. 
 
 ## Install
 
